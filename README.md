@@ -1,4 +1,4 @@
-# finalproject1
+# Final Project 1
 Basic App that allows CRUD of game reviews
 
 
