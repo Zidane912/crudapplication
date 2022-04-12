@@ -1,4 +1,5 @@
 from application import db
+
 from datetime import datetime
 
 # Table 1
@@ -19,3 +20,11 @@ class Game(db.Model):
     description = db.Column(db.String(100), nullable=False)
     review = db.Column(db.String(100), nullable=False)
     date_review_place = db.Column(db.Datetime, nullable=False, default=datetime.now())
+
+class Reviewer(db.Model):
+    id: db.Column(db.Integer, primary_key=True)
+    first_name: db.Column(db.String(50), nullable=False)
+    last_name: db.Column(db.String(50), nullable=False)
+    email: db.Column(db.String(50), nullable=False)
+    age: db.Column(db.Integer, nullable=False)
+
