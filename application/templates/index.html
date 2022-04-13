@@ -2,5 +2,19 @@
 
 {% block body %}
 <h2>Reviews</h2>
-
+<!-- taken from the models file -->
+{% for game in all_games %}
+    {% for review in all_reviews %}
+<p>
+    Game: {{ game.game_name }}<br/>
+    Description: {{ game.description }}<br/>
+    Review: {{ review.review }}<br/>
+    First Name: {{ review.first_name }}<br/>
+    Last Name: {{ review.last_name }}<br/>
+    Email: {{ review.email }}<br/>
+    {{ review.date_review_placed }}<br/>
+    <a href="{{ url_for('delete_review', id=game.id, id2=review.id) }}">Delete</a>
+</p>
+    {% endfor %}
+{% endfor %}
 {% endblock body %}
