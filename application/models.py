@@ -19,3 +19,4 @@ class Game(db.Model):
     description = db.Column(db.String(100), nullable=False)
     review = db.Column(db.String(100), nullable=False)
     date_review_placed = db.Column(db.DateTime, nullable=False, default=datetime.now())
+
