@@ -25,3 +25,4 @@ class Game(db.Model):
 # each review can review one game
 # each game can have one-to-many reveiwers
 # the relationship is one-to-many
+
