@@ -8,7 +8,6 @@ class ReviewerForm(FlaskForm):
     first_name = StringField('First Name', validators=[DataRequired(), Length(max=50)])
     last_name = StringField('Last Name', validators=[DataRequired(), Length(max=50)])
     email = StringField('email', validators=[DataRequired()])
-    age = IntegerField('age', validators=[DataRequired()])
     game_name = StringField('Title', validators=[DataRequired(), Length(max=50)])
     description = TextAreaField('Description', validators=[DataRequired(), Length(max=100)])
     review = TextAreaField('What do you think about this game?', validators=[DataRequired(), Length(max=100)])
