@@ -1,7 +1,9 @@
 # Final Project 1
+
 Basic App that allows CRUD of game reviews
 
 # Basic Usage
+
 Everytime the application is started please follow these steps:
 1. pip3 install -r requirements.txt
 2. export CREATE_SCHEMA=true
@@ -10,6 +12,10 @@ Everytime the application is started please follow these steps:
 5. python3 -m venv venv
 6. source venv/bin/activate
 7. python3 app.py
+
+# Current outstanding issues with code
+
+At the moment all functionaly works i.e. create, read, update and delete. However, currently with create function all creates after the intial will produce extra entries i.e. if you put your first entry it works but the second entry will produce an addition first entry and an additional second entry and for a third entry it will produce a third first and second entry as well as three third entries. As of now this is still an issue.
 
 # User Story
 
