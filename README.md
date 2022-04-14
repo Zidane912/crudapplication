@@ -41,3 +41,4 @@ Please refer to the github projects board on the page of this repository.
 
 
 # Entity Relationship Diagram
+![ERD1](https://user-images.githubusercontent.com/96538941/163391253-9fdc32ea-a0b9-464f-9216-d7229ef6870f.jpg)
