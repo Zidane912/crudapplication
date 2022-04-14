@@ -17,7 +17,7 @@ Everytime the application is started please follow these steps:
 3. export CREATE_SCHEMA=true
 4. export DATABASE_URI=mysql+pymysql://root:"password of db"@"private ip of db"/"name of db"
 5. python3 create.py
-6. python3 -m venv venv
+6. python3 -m venv venv (if there is no venv folder)
 7. source venv/bin/activate
 8. python3 app.py
 
@@ -31,6 +31,10 @@ At the moment all functionality works i.e. create, read, update and delete. Howe
 * As a reviewer, I want to be able to edit that review in case my mind chnages on a game due to subsequent playthroughs
 * As a reviewer, I want to be able to see the reviews I have uploaded to the website as well as the reviews of others
 * As a reviewer, I want to be able to delete a review if I do not want others to see it
+
+# Kanban Board
+
+Please refer to the github projects board on the page of this repository
 
 # Risk Assessment
 
