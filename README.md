@@ -6,10 +6,10 @@ Everytime the application is started please follow these steps:
 1. pip3 install -r requirements.txt
 2. export CREATE_SCHEMA=true
 3. export DATABASE_URI=mysql+pymysql://root:"password of db"@"private ip of db"/"name of db"
-4. python create.py
+4. python3 create.py
 5. python3 -m venv venv
 6. source venv/bin/activate
-7. pyhton app.py
+7. python3 app.py
 
 # User Story
 
