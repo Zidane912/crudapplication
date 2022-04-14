@@ -2,6 +2,10 @@
 
 Basic App that allows CRUD of game reviews
 
+# Architecture
+
+
+
 # Basic Usage
 
 Everytime the application is started please follow these steps:
