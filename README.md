@@ -1,12 +1,15 @@
-# Final Project 1
-
-Basic App that allows CRUD of game reviews
-
 # Architecture
 
+This is a basic CRUD application that accepts user input of video games and reviews. It comprises of two tables in the mysql database,
+* Games
+* Reviews
+This uses a one-to-many relationship where one game can be reviewed by many people however only one entry can review one game hence reviews contains a foreign key referencing to the games table. Initially, I tried to develop this app where several games could be reviewed by several people however after realising this was a many-to-many relationship so would require three tables.
 
+As for the application itself, it comprises of an application folder which contains a templates, routes.py, models.py and forms.py. The routes deals with the various functions create, read, update and delete on the web application, committing to and deleting from the sql and linking the form and the tables together. The models is used in tandem with the create.py file (which is in the root of the directory) in the root to create the database and tables. Forms was used to model the form used for and display onto the web pages. As for the templates folder this contains the various html files used to display and interact with the user.
 
-# Basic Usage
+app.py was used to run the "python3 app.py" command on the command line to run the web application on the virtual environment.
+
+# Setup
 
 Everytime the application is started please follow these steps:
 1. Ensure vm and db instances have been started
