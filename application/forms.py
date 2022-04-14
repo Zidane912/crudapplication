@@ -11,7 +11,7 @@ class ReviewerForm(FlaskForm):
     game_name = StringField('Title', validators=[DataRequired(), Length(max=50)])
     description = TextAreaField('Description', validators=[DataRequired(), Length(max=100)])
     review = TextAreaField('What do you think about this game?', validators=[DataRequired(), Length(max=100)])
-    submit = SubmitField('Add Game Review')
+    submit = SubmitField('Submit Game Review')
 
 # TextAreaField is used to make use of a larger text box as well as making using a longer length as this field
 # would normally being longer than others
