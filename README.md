@@ -15,7 +15,7 @@ Everytime the application is started please follow these steps:
 
 # Current outstanding issues with code
 
-At the moment all functionaly works i.e. create, read, update and delete. However, currently with create function all creates after the intial will produce extra entries i.e. if you put your first entry it works but the second entry will produce an addition first entry and an additional second entry and for a third entry it will produce a third first and second entry as well as three third entries. As of now this is still an issue.
+At the moment all functionality works i.e. create, read, update and delete. However, currently with create function all creates after the intial will produce extra entries i.e. if you put your first entry it works but the second entry will produce an addition first entry and an additional second entry and for a third entry it will produce a third first and second entry as well as three third entries. As of now this is still an issue.
 
 # User Story
 
