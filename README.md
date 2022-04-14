@@ -38,7 +38,7 @@ Please refer to the github projects board on the page of this repository.
 
 # Risk Assessment
 
-
+![image](https://user-images.githubusercontent.com/96538941/163392495-b074ccae-d595-449c-8b92-e6fe8f933600.png)
 
 # Entity Relationship Diagram
 ![ERD1](https://user-images.githubusercontent.com/96538941/163391253-9fdc32ea-a0b9-464f-9216-d7229ef6870f.jpg)
