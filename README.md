@@ -34,7 +34,7 @@ At the moment all functionality works i.e. create, read, update and delete. Howe
 
 # Kanban Board
 
-Please refer to the github projects board on the page of this repository
+Please refer to the github projects board on the page of this repository.
 
 # Risk Assessment
 
