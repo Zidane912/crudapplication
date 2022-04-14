@@ -5,13 +5,14 @@ Basic App that allows CRUD of game reviews
 # Basic Usage
 
 Everytime the application is started please follow these steps:
-1. pip3 install -r requirements.txt
-2. export CREATE_SCHEMA=true
-3. export DATABASE_URI=mysql+pymysql://root:"password of db"@"private ip of db"/"name of db"
-4. python3 create.py
-5. python3 -m venv venv
-6. source venv/bin/activate
-7. python3 app.py
+1. Ensure vm and db instances have been started
+2. pip3 install -r requirements.txt
+3. export CREATE_SCHEMA=true
+4. export DATABASE_URI=mysql+pymysql://root:"password of db"@"private ip of db"/"name of db"
+5. python3 create.py
+6. python3 -m venv venv
+7. source venv/bin/activate
+8. python3 app.py
 
 # Current outstanding issues with code
 
