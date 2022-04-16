@@ -12,7 +12,7 @@ app.py was used to run the "python3 app.py" command on the command line to run t
 # Setup
 
 Everytime the application is started please follow these steps:
-1. Ensure vm and db instances have been started
+1. Ensure vm and db instances have been started allowing all ports
 2. pip3 install -r requirements.txt
 3. export CREATE_SCHEMA=true
 4. export DATABASE_URI=mysql+pymysql://root:"password of db"@"private ip of db"/"name of db"
