@@ -25,6 +25,26 @@ Everytime the application is started please follow these steps:
 
 At the moment all functionality works i.e. create, read, update and delete. However, currently with create function, all creates after the intial create will produce extra entries i.e. if you put your first entry it works but the second entry will produce an additional first entry and an additional second entry and for a third entry it will produce a third first and third second entry as well as three third entries. As of now this is still an issue.
 
+# Testing
+
+Two tests were carried out via pytest, the first being a test to read data entries and accessing the page and the second was to create a new data entry. the App passed the first test but failed the second. Below is the error message for the seocnd test,
+
+================================================================ FAILURES =================================================================
+_____________________________________________________ TestAddEntry.test_create_review _____________________________________________________
+
+self = <tests.test_app.TestAddEntry testMethod=test_create_review>
+
+    def test_create_review(self):
+         response = self.client.post(
+             url_for('added_game'),
+             data = dict(game_name="Borderlands 2", description="RPG Shooter"),
+             follow_redirects = True
+         )
+>        self.assertEqual(response.status_code, 200)
+E        AssertionError: 500 != 200
+
+test_app.py:35: AssertionError
+
 # User Story
 
 * As a reviewer, I want to be able to write a review for others to see my opinion on a particular game
