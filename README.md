@@ -49,6 +49,10 @@ E        AssertionError: 500 != 200
 
 test_app.py:35: AssertionError
 
+# Coverage Report
+
+![image](https://user-images.githubusercontent.com/96538941/163800418-ec1319b3-e2ed-40ae-9640-b426b5a9e846.png)
+
 # User Story
 
 * As a reviewer, I want to be able to write a review for others to see my opinion on a particular game
