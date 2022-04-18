@@ -13,7 +13,7 @@ app.py was used to run the "python3 app.py" command on the command line to run t
 
 Everytime the application is started please follow these steps:
 1. Ensure vm and db instances have been started allowing all ports
-2. python3 -m venv venv (if there is no venv folder)
+2. python3 -m venv venv
 3. source venv/bin/activate
 4. pip3 install -r requirements.txt
 5. export CREATE_SCHEMA=true
