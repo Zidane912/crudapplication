@@ -1,3 +1,7 @@
+# Video Link
+
+https://drive.google.com/file/d/164IHjK0hIv2GEg2zg9dh9QTp8sku5X3R/view?usp=sharing
+
 # Architecture
 
 This is a basic CRUD application that accepts user input of video games and reviews. It comprises of two tables in the mysql database,
