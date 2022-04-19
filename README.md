@@ -16,7 +16,7 @@ app.py was used to run the "python3 app.py" command on the command line to run t
 # Setup
 
 Everytime the application is started please follow these steps:
-1. Ensure vm and db instances have been started allowing all ports
+1. Ensure vm and db instances on Google Cloud Virtual Platform have been started allowing all ports
 2. python3 -m venv venv
 3. source venv/bin/activate
 4. pip3 install -r requirements.txt
