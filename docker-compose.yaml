@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+ application:
+   image: zidane912/application:latest
+   ports:
+   - target: 5000
+     protocol: tcp
